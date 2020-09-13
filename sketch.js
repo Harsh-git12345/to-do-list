@@ -10,6 +10,7 @@ function preload () {
 }
 function setup() {
   createCanvas(800,800);
+  rectMode(CENTER);
   input = createInput("Enter what you want to add");
   input.position(300, 200);
   add = createButton("ADD");
@@ -18,6 +19,8 @@ function setup() {
 
 function draw() {
   background(bg);
+  textSize(26);
+  fill(51);
   text("TO - DO LIST", 400, 100);
   add.mousePressed(() => {
     addingList();

@@ -4,6 +4,10 @@ var ypos = 300;
 var deletes = [];
 var items = [];
 var numbers = 0;
+var bg;
+function preload () {
+  bg = loadImage("collection-sticky-note-illustrations_53876-8291.jpg");
+}
 function setup() {
   createCanvas(800,800);
   input = createInput("Enter what you want to add");

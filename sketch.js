@@ -37,6 +37,7 @@ function addingList () {
   var delete1 = createButton("X");
   delete1.position(600, ypos + 30);
   delete1.style('color', 'red');
+  delete1.style('border-radius', '3px')
   var array2 = [item, delete1];
   deletes.push(array2);
   //items.push(item);

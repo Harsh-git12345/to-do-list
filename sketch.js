@@ -18,6 +18,7 @@ function setup() {
 
 function draw() {
   background(bg);
+  text("TO - DO LIST", 400, 100);
   add.mousePressed(() => {
     addingList();
   })
